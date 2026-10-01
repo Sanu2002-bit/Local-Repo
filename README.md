@@ -33,3 +33,24 @@ PS C:\SANU's DATA\VS Code\LocalRepo>
 
 this 1 is sanuk commit
 sss
+PS C:\SANU's DATA\VS Code\LocalRepo> git branch
+* main
+PS C:\SANU's DATA\VS Code\LocalRepo> git checkout -b sanubranch  
+Switched to a new branch 'sanubranch'
+PS C:\SANU's DATA\VS Code\LocalRepo> git branch
+  main
+* sanubranch
+PS C:\SANU's DATA\VS Code\LocalRepo> git checkout sanubranch
+Already on 'sanubranch'
+PS C:\SANU's DATA\VS Code\LocalRepo> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\SANU's DATA\VS Code\LocalRepo> git branch             
+* main
+  sanubranch
+PS C:\SANU's DATA\VS Code\LocalRepo> git branch -d sanubranch
+Deleted branch sanubranch (was cc555eb).
+PS C:\SANU's DATA\VS Code\LocalRepo> 
+
+-- I am on sanuk branch and i want to commit this
+
