@@ -29,6 +29,10 @@ PS C:\SANU's DATA\VS Code\LocalRepo> git push -u origin main
 branch 'main' set up to track 'origin/main'.
 Everything up-to-date
 
+PS C:\SANU's DATA\VS Code\LocalRepo>    
+
+this 1 is sanuk commit
+sss
 PS C:\SANU's DATA\VS Code\LocalRepo> git branch
 * main
 PS C:\SANU's DATA\VS Code\LocalRepo> git checkout -b sanubranch  
